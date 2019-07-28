@@ -1,0 +1,71 @@
+html {
+	background-color: #298eea;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+img {
+	height: 35px;
+	width: auto;
+	margin: 15px;
+}
+
+main {
+	text-align: center;
+}
+
+main * {
+
+}
+
+form {
+	width: 400px;
+	background-color: white;
+	margin: 0 auto;
+	border: 1px solid white;
+	border-radius:10px;
+	padding: 20px;
+
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+input {
+	width: 320px;
+	height: 55px;
+	border: 2px solid gray;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.signup legend {
+	width: 100%;
+	line-height: 38px;
+	font-size: 35px;
+	font-weight: 300;
+	color: #565656;
+	text-align: center;
+	letter-spacing: 0;
+	margin: 0 auto 45px;
+}
+
+label {
+	float: left;
+}
+
+
+.login {
+	color: white;
+}
+
+.login a {
+	color: white;
+}

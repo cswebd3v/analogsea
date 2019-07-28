@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+	<main>
+
+		<div class="logo">
+			<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png"/>
+		</div>
+
+		<form class="signup" role="form" action="/signup" method="post">
+			<fieldset>
+				<legend>Sign Up</legend>
+
+				<label for="email">Email</label>
+				<br>
+				<input type="email" placeholder="youremail@gmail.com" name="user-email" id="user-email" required/>
+				<br>
+				<label for="password">Password</label>
+				<br>
+				<input type="password" placeholder="password" name="user-password" id="user-password" required/>
+				<br>
+				<button type="sumbmit">Sign Up</button>
+			</fieldset>
+		</form>
+
+		<div class="login">
+			<p>Already have an account? <a href="/login">Log In</a></p>
+		</div>
+
+	</main>
+
+</body>
+</html>
